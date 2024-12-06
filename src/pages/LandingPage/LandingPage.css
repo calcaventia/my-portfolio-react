@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #3836f5;
+  --secondary-color: #f87c48;
+  --neutral-background-color1: #ecf2ff;
+  --neutral-background-color2: #fee7d6;
+  --neutral-background-color3: #f2f2f2;
+  --neutral-background-color4: #f9f9f9;
+  --neutral-background-color5: #e0e0e0;
+  --menu-header-text-color: #4b4b4b;
+  --menu-footer-text-color: #ecf2ff;
+  --body-text-color: #00000;
+}
+
+.hero-heading {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+  color: var(--primary-color: #3836f5);
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+p .body-text-small {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+p .body-text-medium {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
