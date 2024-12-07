@@ -1,0 +1,44 @@
+*,
+*:: after,
+*:: before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #3836f5;
+  --menu-header-text-color: #4b4b4b;
+}
+
+nav ul li .menu-option {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 25px;
+  max-width: 1120px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 55px;
+  height: 48px;
+}
+
+nav ul {
+  display: flex;
+  align-items: left;
+  gap: 61px;
+  list-style: none;
+}

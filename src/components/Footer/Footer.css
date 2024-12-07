@@ -1,1 +1,20 @@
-/*icons*/
+:root {
+  --primary-color: #3836f5;
+  --secondary-color: #f87c48;
+  --neutral-background-color1: #ecf2ff;
+  --menu-footer-text-color: #ecf2ff;
+}
+
+footer {
+  background-color: var(--primary-color);
+  height: 404px;
+}
+
+ul li .menu-option {
+  text-decoration: none;
+  color: var(--neutral-background-color1);
+}
+
+ul {
+  list-style: none;
+}
