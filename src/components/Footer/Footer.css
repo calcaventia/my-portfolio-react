@@ -10,6 +10,11 @@ footer {
   height: 404px;
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 931px;
+}
+
 ul li .menu-option {
   text-decoration: none;
   color: var(--neutral-background-color1);
@@ -17,4 +22,33 @@ ul li .menu-option {
 
 ul {
   list-style: none;
+}
+
+.footer-links-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 103px 0 0 0;
+  gap: 236px;
+}
+
+.footer-links-list-3 ul {
+  margin: 0 0;
+  padding: 0;
+  display: flex;
+  gap: 51px;
+}
+
+.footer-links-list-1 ul,
+.footer-links-list-2 ul {
+  margin: 0 0;
+  padding: 0;
+  line-height: 45px;
+}
+
+.author {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  padding: 40px 0 0 0;
+  color: var(--neutral-background-color1);
 }
