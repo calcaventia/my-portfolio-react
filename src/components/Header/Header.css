@@ -15,7 +15,7 @@ body {
 }
 
 nav ul li .menu-option {
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   color: var(--menu-header-text-color);

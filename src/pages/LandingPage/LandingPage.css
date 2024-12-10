@@ -49,7 +49,7 @@ p .body-text-large {
 
 .body-text-medium {
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -61,7 +61,7 @@ p .body-text-small {
 .hero-container {
   margin: 0 auto;
   padding: 0;
-  max-width: 930px;
+  max-width: 1120px;
   height: 527px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -69,9 +69,9 @@ p .body-text-small {
 }
 
 .hero-text {
-  margin-top: 180px;
+  margin-top: 160px;
   padding: 0 0 0px 0;
-  max-width: 383px;
+  max-width: 500px;
   height: 291px;
   text-align: right;
 }
@@ -118,18 +118,24 @@ p .body-text-small {
   color: var(--primary-color);
 }
 
+.content-background {
+  margin: 0 auto;
+  padding: 0;
+  width: 1120px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
 /*About section*/
 
 .about-container {
-  margin: 60px auto;
-  width: 743px;
-  height: 449px;
+  margin: 0 auto;
+  padding: 80px 0 20px 0;
+  width: 930px;
 }
 
 .about-content {
-  padding: 20px 0 0 0;
+  padding: 0px 0 0 0;
   text-align: right;
-  width: 358px;
 }
 
 .sub-heading {
@@ -140,14 +146,15 @@ p .body-text-small {
 }
 
 .about-content .about-content-body {
-  font-size: 15px;
+  font-size: 18px;
   margin: 0;
   padding: 0 0 12px 0;
 }
 
 .about-image {
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0px 0px 60px 0px;
   background-color: var (--neutral-background-color2);
 }
@@ -171,19 +178,20 @@ p .body-text-small {
 /*technical skills section*/
 
 .technical-skills-container {
-  margin: 60px auto;
-  width: 743px;
+  margin: 0px auto;
+  padding: 80px 0 20px 0;
+  width: 930px;
 }
 
 .t-s-container {
   margin: 0 auto;
-  max-width: 743px;
+  max-width: 930px;
 }
 
 .t-s-container2 {
   margin: 0 auto;
   padding: 32px 0 0 0;
-  max-width: 743px;
+  max-width: 930px;
 }
 
 .technical-skill {
@@ -195,13 +203,14 @@ p .body-text-small {
 /*soft skills section*/
 
 .soft-skills-container {
-  margin: 60px auto;
-  width: 743px;
+  margin: 0 auto;
+  width: 930px;
+  padding: 80px 0 20px 0;
 }
 
 .soft-skills-container p {
   margin: 0;
-  padding: 0px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 .soft-skills-container #heading-text {
@@ -209,11 +218,16 @@ p .body-text-small {
   padding: 22px 0 0 0;
 }
 
+.soft-skills-container h4 {
+  text-decoration: underline;
+}
+
 /*experience section*/
 
 .experience-container {
   margin: 0 auto;
-  width: 734px;
+  padding: 80px 0 80px 0;
+  width: 930px;
 }
 
 .experience-container h2 {
@@ -223,12 +237,37 @@ p .body-text-small {
 
 .experience-container p {
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .gallery-images {
-  margin-top: 10px;
-  width: 370.5px;
+  margin-top: 20px;
+  width: 435px;
   border: 10px solid var(--neutral-background-color3);
   border-radius: 10px;
+}
+
+.experience-button {
+  padding: 40px 0 0 0;
+  text-align: right;
+}
+
+/*contact section*/
+
+.contact-container {
+  margin: 0px auto;
+  margin-bottom: 105px;
+  width: 1120px;
+  height: 459px;
+  justify-items: center;
+  align-items: center;
+  background-color: #ffff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container p {
+  padding: 160px 0 0 0;
+  font-size: 40px;
 }
