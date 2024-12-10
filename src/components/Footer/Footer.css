@@ -12,10 +12,11 @@ footer {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 931px;
+  max-width: 1120px;
 }
 
 ul li .menu-option {
+  font-size: 18px;
   text-decoration: none;
   color: var(--neutral-background-color1);
 }
