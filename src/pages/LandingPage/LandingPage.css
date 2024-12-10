@@ -22,10 +22,12 @@ body {
 }
 
 h2 {
+  margin: 0;
   font-weight: normal;
   font-size: 40px;
   color: var(--primary-color);
   font-family: "Poppins", sans-serif;
+  letter-spacing: 5px;
 }
 
 h3 {
@@ -34,6 +36,7 @@ h3 {
 }
 
 h4 {
+  font-weight: normal;
   font-size: 24px;
   font-family: "Poppins", sans-serif;
 }
@@ -56,7 +59,6 @@ p .body-text-small {
 }
 
 .hero-container {
-  display: flex;
   margin: 0 auto;
   padding: 0;
   max-width: 930px;
@@ -67,17 +69,17 @@ p .body-text-small {
 }
 
 .hero-text {
+  margin-top: 180px;
+  padding: 0 0 0px 0;
   max-width: 383px;
   height: 291px;
   text-align: right;
-  align-self: flex-end;
-  background-color: green;
 }
 
 .hero-profile-image {
+  margin-top: 60px;
   max-height: 467.24px;
   max-width: 480px;
-  align-self: flex-end;
 }
 .author-name {
   margin: 0;
@@ -95,11 +97,12 @@ p .body-text-small {
   font-family: "Poppins", sans-serif;
 }
 
-.hero-text p {
-  margin-bottom: 24px;
+.hero-text .body-text-medium {
+  margin-top: 0 auto;
+  padding: 20px 0 20px 0;
 }
 
-.hero-text button {
+.hero-text .large-button {
   margin: 0;
   width: 250px;
   height: 50px;
@@ -118,32 +121,114 @@ p .body-text-small {
 /*About section*/
 
 .about-container {
-  display: flex;
-  margin: 0 auto;
+  margin: 60px auto;
   width: 743px;
+  height: 449px;
 }
 
 .about-content {
+  padding: 20px 0 0 0;
   text-align: right;
   width: 358px;
 }
 
 .sub-heading {
+  margin: 0;
+  padding: 0 0 10px 0;
   font-size: 18px;
   color: var(--secondary-color);
 }
 
-.about-content p {
+.about-content .about-content-body {
   font-size: 15px;
+  margin: 0;
+  padding: 0 0 12px 0;
 }
 
-.image-background {
+.about-image {
+  display: block;
   margin: 0 auto;
-  padding: 40px;
+  padding: 0px 0px 60px 0px;
   background-color: var (--neutral-background-color2);
 }
 
 .about-section-profile-image {
-  width: 167.47px;
-  height: 192.55px;
+  width: 224px;
+  height: 270.76px;
+  box-shadow: 30px 30px 0px 0px var(--secondary-color);
+}
+
+.medium-button {
+  font-size: 18px;
+  width: 170px;
+  height: 36px;
+  border-radius: 30px;
+  color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+  background-color: var(--neutral-background-color2);
+}
+
+/*technical skills section*/
+
+.technical-skills-container {
+  margin: 60px auto;
+  width: 743px;
+}
+
+.t-s-container {
+  margin: 0 auto;
+  max-width: 743px;
+}
+
+.t-s-container2 {
+  margin: 0 auto;
+  padding: 32px 0 0 0;
+  max-width: 743px;
+}
+
+.technical-skill {
+  padding: 3px 0 3px 0;
+  text-align: center;
+  background-color: var(--neutral-background-color5);
+}
+
+/*soft skills section*/
+
+.soft-skills-container {
+  margin: 60px auto;
+  width: 743px;
+}
+
+.soft-skills-container p {
+  margin: 0;
+  padding: 0px 0 0 0;
+}
+
+.soft-skills-container #heading-text {
+  margin: 0;
+  padding: 22px 0 0 0;
+}
+
+/*experience section*/
+
+.experience-container {
+  margin: 0 auto;
+  width: 734px;
+}
+
+.experience-container h2 {
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.experience-container p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.gallery-images {
+  margin-top: 10px;
+  width: 370.5px;
+  border: 10px solid var(--neutral-background-color3);
+  border-radius: 10px;
 }
