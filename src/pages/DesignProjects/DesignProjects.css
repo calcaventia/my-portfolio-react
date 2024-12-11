@@ -1,0 +1,84 @@
+*,
+*:: after,
+*:: before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #3836f5;
+  --secondary-color: #f87c48;
+  --neutral-background-color1: #ecf2ff;
+  --neutral-background-color2: #fee7d6;
+  --neutral-background-color3: #f2f2f2;
+  --neutral-background-color4: #f9f9f9;
+  --neutral-background-color5: #e0e0e0;
+  --menu-header-text-color: #4b4b4b;
+  --menu-footer-text-color: #ecf2ff;
+  --body-text-color: #00000;
+}
+
+body {
+  background-color: var(--neutral-background-color1);
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 40px;
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 5px;
+}
+
+h3 {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.design-projects-heading {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 1120px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 200px;
+  letter-spacing: 40px;
+  -webkit-text-stroke: 2px var(--secondary-color);
+  color: var(--neutral-background-color1);
+}
+
+.design-bold-letter {
+  color: var(--secondary-color);
+}
+
+.design-content-container {
+  margin: 0 auto;
+  width: 1120px;
+}
+
+.next-button {
+  justify-content: right;
+}
+
+.design-project-images {
+  height: 500px;
+  background: linear-gradient(to bottom, #248a3d, #b9e6b7);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main-images {
+  margin: 0 auto;
+  padding: 90px 0 0 0;
+}
+
+.app-image {
+  width: 200px;
+  box-shadow: 0px 4px 60px rbga(0, 0, 0, 0.4);
+}
