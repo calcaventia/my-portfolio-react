@@ -3,7 +3,7 @@ import Header from "../../components/Header/Header.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import ProjectImageMain1 from "../../assets/images/CodingProject1.JPG";
 import ProjectImageMain2 from "../../assets/images/CodingProject2.JPG";
-import ProjectImageMain3 from "../../assets/images/CodingProject3.png";
+import ProjectImageMain3 from "../../assets/images/CodingProject3.JPG";
 import SubImage1 from "../../assets/images/CodingProject1-subImage.JPG";
 import SubImage2 from "../../assets/images/CodingProject2-subImage.JPG";
 import SubImage3 from "../../assets/images/CodingProject3-subImage.JPG";
@@ -41,8 +41,24 @@ function CodingProjects() {
                 <div className="col-2 me-3 project-tool">Bootstrap</div>
               </div>
               <div className="project-links">
-                <button className="code-button">Code</button>
-                <button className="site-button">Website</button>
+                <button className="me-3 code-button">
+                  <a
+                    href="https://github.com/calcaventia/EWSETA-Landing-Page-Project"
+                    target="blank"
+                    className="code-link"
+                  >
+                    Code
+                  </a>
+                </button>
+                <button className="site-button">
+                  <a
+                    href="https://calcaventia.github.io/EWSETA-Landing-Page-Project/"
+                    target="blank"
+                    className="website-link"
+                  >
+                    Website
+                  </a>
+                </button>
               </div>
             </div>
             <div className="col-4 project-image">
@@ -71,8 +87,24 @@ function CodingProjects() {
                 <div className="col-2 me-3 project-tool">Bootstrap</div>
               </div>
               <div className="project-links">
-                <button className="code-button">Code</button>
-                <button className="site-button">Website</button>
+                <button className="me-3 code-button">
+                  <a
+                    href="https://github.com/calcaventia/Makeovers-App-Landing-Page-Capstone-Project"
+                    target="blank"
+                    className="code-link"
+                  >
+                    Code
+                  </a>
+                </button>
+                <button className="site-button">
+                  <a
+                    href="https://calcaventia.github.io/Makeovers-App-Landing-Page-Capstone-Project/"
+                    target="blank"
+                    className="website-link"
+                  >
+                    Website
+                  </a>
+                </button>
               </div>
             </div>
             <div className="col-4 project-image">
@@ -97,11 +129,23 @@ function CodingProjects() {
                 <div className="col-2 me-3 project-tool">React</div>
                 <div className="col-2 me-3 project-tool">Bootstrap</div>
                 <div className="col-2 me-3 project-tool">CSS</div>
-                <div className="col-2 me-3 project-tool">Figma</div>
+                <div className="col-2  project-tool">Figma</div>
               </div>
               <div className="project-links">
-                <button className="code-button">Code</button>
-                <button className="site-button">Website</button>
+                <button className="me-3 code-button">
+                  <a
+                    href="https://github.com/calcaventia/my-portfolio-react"
+                    target="blank"
+                    className="code-link"
+                  >
+                    Code
+                  </a>
+                </button>
+                <button className="site-button">
+                  <a href="/" target="blank" className="website-link">
+                    Website
+                  </a>
+                </button>
               </div>
             </div>
             <div className="col-4 project-image">
