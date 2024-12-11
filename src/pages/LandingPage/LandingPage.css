@@ -172,7 +172,7 @@ p .body-text-small {
   border-radius: 30px;
   color: var(--secondary-color);
   border: 3px solid var(--secondary-color);
-  background-color: var(--neutral-background-color2);
+  background-color: #fff;
 }
 
 /*technical skills section*/

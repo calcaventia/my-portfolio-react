@@ -14,7 +14,6 @@ function CodingProjects() {
     <div>
       <Header />
       <main>
-        ]
         <div className="code-heading">
           <h1 className="code-projects-heading">
             C<span className="bold-letter">O</span>DE

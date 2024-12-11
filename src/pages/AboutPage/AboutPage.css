@@ -41,19 +41,18 @@ h4 {
   font-family: "Poppins", sans-serif;
 }
 
-p .body-text-large {
+.body-text-large {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
-  color: var(menu-header-text-color);
 }
 
 .body-text-medium {
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
 
-p .body-text-small {
+.body-text-small {
   font-size: 12px;
   font-family: "Poppins", sans-serif;
 }
@@ -68,8 +67,10 @@ p .body-text-small {
   margin-top: 30px;
   padding: 0;
   width: 1120px;
-  height: 2052px;
+  height: 2500px;
   background-color: rgba(255, 255, 255, 0.6);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .about-heading {
@@ -100,8 +101,6 @@ hr {
   margin: 0 0 0 20px;
   padding: 10px;
   font-size: 20px;
-  text-align: center;
-
   background-color: var(--neutral-background-color3);
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -115,7 +114,7 @@ hr {
 }
 
 .circle-right {
-  margin: 0 0 0 65px;
+  margin: 0 0 0 20px;
   width: 25px;
   height: 25px;
   background-color: var(--primary-color);
@@ -124,11 +123,38 @@ hr {
 }
 
 .text-bubble-right {
-  margin: 0;
   padding: 20px;
   font-size: 20px;
   background-color: var(--neutral-background-color5);
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.contact-info {
+  margin: 0 auto;
+  margin-bottom: 105px;
+  padding: 110px 0 0 0;
+  width: 1120px;
+  height: 324px;
+  text-align: center;
+  background-color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+  font-size: 24px;
+}
+
+.about-contact-button {
+  margin: 20px;
+  font-size: 18px;
+  width: 170px;
+  height: 36px;
+  border-radius: 30px;
+  color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+  background-color: #fff;
 }

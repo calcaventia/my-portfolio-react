@@ -110,22 +110,21 @@ h4 {
 }
 
 .project-links button {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
   text-align: center;
-  width: 150px;
+  width: 130px;
   height: 40px;
   border-radius: 20px;
+  background-color: #fff;
 }
 
 .code-button {
   border: 3px solid var(--primary-color);
-  background-color: var(--neutral-background-color1);
 }
 
 .site-button {
   border: 3px solid var(--secondary-color);
-  background-color: var(--neutral-background-color2);
 }
 
 .website-link {
