@@ -1,0 +1,134 @@
+*,
+*:: after,
+*:: before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #3836f5;
+  --secondary-color: #f87c48;
+  --neutral-background-color1: #ecf2ff;
+  --neutral-background-color2: #fee7d6;
+  --neutral-background-color3: #f2f2f2;
+  --neutral-background-color4: #f9f9f9;
+  --neutral-background-color5: #e0e0e0;
+  --menu-header-text-color: #4b4b4b;
+  --menu-footer-text-color: #ecf2ff;
+  --body-text-color: #00000;
+}
+
+body {
+  background-color: var(--neutral-background-color1);
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 40px;
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 5px;
+}
+
+h3 {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+p .body-text-large {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: var(menu-header-text-color);
+}
+
+.body-text-medium {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+p .body-text-small {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.profile-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.about-background {
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0;
+  width: 1120px;
+  height: 2052px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.about-heading {
+  padding: 65px 0 0 95px;
+}
+
+hr {
+  margin: 0 0 0 95px;
+  width: 100px;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+.left-side {
+  margin: 81px 0 0 0;
+}
+
+.circle-left {
+  margin: 0 0 0 65px;
+  width: 25px;
+  height: 25px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.25);
+}
+
+.text-bubble-left {
+  margin: 0 0 0 20px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+
+  background-color: var(--neutral-background-color3);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.right-side {
+  display: flex;
+  margin: 30px 65px 0 0;
+  justify-content: right;
+}
+
+.circle-right {
+  margin: 0 0 0 65px;
+  width: 25px;
+  height: 25px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.25);
+}
+
+.text-bubble-right {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  background-color: var(--neutral-background-color5);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
