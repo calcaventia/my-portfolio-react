@@ -89,7 +89,7 @@ function Footer() {
           </div>
         </div>
         <p className="author">
-          Designed and Developer by Tintswalo Mabuza. 2024
+          Designed and Developed by Tintswalo Mabuza. 2024
         </p>
       </div>
     </footer>
