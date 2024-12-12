@@ -138,6 +138,15 @@ p .body-text-small {
   text-align: right;
 }
 
+.about-content h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 40px;
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 5px;
+}
+
 .sub-heading {
   margin: 0;
   padding: 0 0 10px 0;
@@ -183,6 +192,15 @@ p .body-text-small {
   width: 930px;
 }
 
+.technical-skills-container h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 40px;
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 5px;
+}
+
 .t-s-container {
   margin: 0 auto;
   max-width: 930px;
@@ -219,6 +237,7 @@ p .body-text-small {
 }
 
 .soft-skills-container h4 {
+  font-size: 20px;
   text-decoration: underline;
 }
 

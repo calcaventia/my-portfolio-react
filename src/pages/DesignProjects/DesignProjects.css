@@ -21,34 +21,13 @@ body {
   background-color: var(--neutral-background-color1);
 }
 
-h2 {
-  margin: 0;
-  font-weight: normal;
-  font-size: 40px;
-  color: var(--primary-color);
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 5px;
-}
-
-h3 {
-  font-size: 35px;
-  font-family: "Poppins", sans-serif;
-}
-
-h4 {
-  font-weight: normal;
-  font-size: 24px;
-  font-family: "Poppins", sans-serif;
-}
-
 .design-projects-heading {
-  margin: 0 auto;
   margin-bottom: 40px;
   width: 1120px;
   font-weight: 600;
   text-align: center;
   font-size: 200px;
-  letter-spacing: 40px;
+  letter-spacing: 80px;
   -webkit-text-stroke: 2px var(--secondary-color);
   color: var(--neutral-background-color1);
 }
@@ -63,22 +42,297 @@ h4 {
 }
 
 .next-button {
-  justify-content: right;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+  background-color: #fff;
 }
 
-.design-project-images {
-  height: 500px;
+.next-button-container {
+  padding: 0 0 70px 0;
+  text-align: right;
+}
+
+.next-project-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+#bottom-page-button {
+  padding: 70px 0 70px 0;
+}
+
+.design-project-background {
+  height: 550px;
   background: linear-gradient(to bottom, #248a3d, #b9e6b7);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
 .main-images {
-  margin: 0 auto;
-  padding: 90px 0 0 0;
+  display: inline;
+  padding: 0 50px 0 0;
+}
+
+.design-project-images ul {
+  margin: 0;
+  text-align: center;
 }
 
 .app-image {
+  margin: 60px 0 0 0;
   width: 200px;
-  box-shadow: 0px 4px 60px rbga(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.4);
+}
+
+.project-name {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 600px;
+  text-align: right;
+  padding: 40px 60px 30px 0px;
+}
+
+.design-background {
+  margin: 0 auto;
+  padding: 0;
+  width: 1120px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.design-heading {
+  padding: 58px 0 0 0;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+.project-description {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin: 17px auto;
+  width: 700px;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.problem-statement-content .text-content {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  width: 550px;
+}
+
+.problem-statement {
+  margin: 0px auto;
+  padding: 58px 0 0 0;
+  width: 930px;
+}
+
+.problem-statement-section {
+  display: flex;
+}
+
+.problem-statement .text-content {
+  text-align: justify;
+}
+
+.challenges-section {
+  margin: 0px auto;
+  padding: 40px 0 0 0;
+  width: 930px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.challenges-section .text-content {
+  text-align: justify;
+}
+
+.solution-section {
+  margin: 0px auto;
+  padding: 40px 0 0 0;
+  width: 930px;
+  font-size: 18px;
+}
+
+.solution-section ul {
+  list-style-type: disc;
+  text-align: justify;
+}
+
+.project-info {
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+  width: 930px;
+}
+
+.project-duration-heading,
+.project-tools-heading,
+.icon-section-heading {
+  font-size: 18px;
+}
+
+.duration-number,
+.screen-number {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.project-duration-days,
+.project-sreens {
+  text-align: center;
+  font-size: 15px;
+}
+
+.tools-used-icon {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+}
+.tools-used-image {
+  margin: 0;
+  padding: 0;
+}
+
+.tools-used-photopea-icon {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+.image-label {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  width: 90px;
+}
+
+.spot-buddie-desktop {
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+
+.interface-background {
+  width: 1120px;
+  height: 1100px;
+  background-color: var(--neutral-background-color3);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.interface-section-heading p {
+  padding: 100px 0 0 0;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+.UI-section-heading {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-items {
+  padding: 60px 60px 0 60px;
+}
+
+.logo-item-image {
+  margin: 30px 0 0 30px;
+  width: 150px;
+}
+
+.color-palette {
+  padding: 60px 60px 0 60px;
+}
+
+.color-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.color-circle1 {
+  background-color: #d9d9d9;
+}
+
+.color-circle2 {
+  background-color: #8e8e93;
+}
+
+.color-circle3 {
+  background-color: #007aff;
+}
+.color-circle4 {
+  background-color: #5ca059;
+}
+.color-circle5 {
+  background-color: #248a3d;
+}
+.color-circle6 {
+  background-color: #c93400;
+}
+
+.color-group {
+  margin: 30px 0 0 30px;
+}
+
+.typography-section {
+  padding: 60px 60px 0 60px;
+}
+
+.font-19 {
+  padding: 0 0 10px 0;
+  font-size: 19px;
+  font-family: "Poppins", sans-serif;
+}
+
+.font-17 {
+  padding: 0 0 10px 0;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+.font-12 {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.font-name {
+  font-size: 24px;
+}
+
+.font-letter {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+
+.app-icons-section {
+  padding: 60px 60px 0 60px;
+}
+
+.app-icons {
+  margin: 30px auto;
+}
+
+.app-icons ul li {
+  display: inline;
+  padding: 0 50px 0 0;
+}
+
+.disclaimer {
+  margin: 50px auto;
+  font-size: 15px;
+  text-align: center;
+  width: 500px;
 }
