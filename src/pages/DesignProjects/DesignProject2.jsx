@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import "../../pages/DesignProjects/DesignProjects.css";
-import DesktopUI from "../../assets/images/Portfolio-UI-Desktop.png";
+import DesktopUI from "../../assets/images/portfolio-UI-Desktop.png";
 import FigmaIcon from "../../assets/icons-img/figma-icon.png";
 import PhotopeaIcon from "../../assets/icons-img/photopea-icon.png";
 import DesignDisplay1 from "../../assets/images/portfolio-UI-1.JPG";
@@ -25,14 +25,12 @@ function DesignProject2() {
             </h1>
           </div>
           <div className="previous-button-container">
-            <button className="previous-button">
-              <Link to="/designproject2" className="previous-project-link">
-                Previous Project
-              </Link>
-            </button>
+            <Link to="/designproject1" className="previous-project-link">
+              <button className="previous-button">Previous Project </button>
+            </Link>
           </div>
 
-          <div className="design-project-background">
+          <div className="design-project2-background">
             <div className="design-project2-image">
               <img src={DesktopUI} alt="" className="portfolio-main-image" />
             </div>
@@ -49,18 +47,15 @@ function DesignProject2() {
             <div className="problem-statement">
               <p className="section-heading">Problem Statement</p>
               <div className="row problem-statement-section">
-                <div className="col-8 problem-statement-content">
-                  <p className="text-content">
-                    The primary challenge was to create a professional portfolio
-                    that not only showcases my skills and projects but also
-                    appeals to recruiters and hiring managers. Given the highly
-                    competitive job market, it was important for me to design a
-                    portfolio that stands out, is easy to navigate, and clearly
-                    communicates my expertise in frontend development and UI/UX
-                    design.
-                  </p>
-                </div>
-                <div className="col-4 problem-statement-video">Video</div>
+                <p className="text-content">
+                  The primary challenge was to create a professional portfolio
+                  that not only showcases my skills and projects but also
+                  appeals to recruiters and hiring managers. Given the highly
+                  competitive job market, it was important for me to design a
+                  portfolio that stands out, is easy to navigate, and clearly
+                  communicates my expertise in frontend development and UI/UX
+                  design.
+                </p>
               </div>
             </div>
             <div className="challenges-section">
@@ -146,14 +141,14 @@ function DesignProject2() {
             </div>
             <div className="design-projects-display">
               <u>
-                <li>
+                <li className="design-projects-desktop-display">
                   <img
                     src={DesignDisplay1}
                     alt=""
                     className="design-project-display-image"
                   />
                 </li>
-                <li>
+                <li className="design-projects-desktop-display">
                   <img
                     src={DesignDisplay2}
                     alt=""
@@ -245,11 +240,9 @@ function DesignProject2() {
             </div>
           </div>
           <div className="previous-button-container" id="bottom-page-button">
-            <button className="previous-button">
-              <Link to="/designproject2" className="previous-project-link">
-                Previous Project
-              </Link>
-            </button>
+            <Link to="/designproject1" className="previous-project-link">
+              <button className="previous-button">Previous Project</button>
+            </Link>
           </div>
         </div>
       </main>

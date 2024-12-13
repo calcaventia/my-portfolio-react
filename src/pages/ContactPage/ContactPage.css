@@ -1,0 +1,115 @@
+*,
+*:: after,
+*:: before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #3836f5;
+  --secondary-color: #f87c48;
+  --neutral-background-color1: #ecf2ff;
+  --neutral-background-color2: #fee7d6;
+  --neutral-background-color3: #f2f2f2;
+  --neutral-background-color4: #f9f9f9;
+  --neutral-background-color5: #e0e0e0;
+  --menu-header-text-color: #4b4b4b;
+  --menu-footer-text-color: #ecf2ff;
+  --body-text-color: #00000;
+}
+
+body {
+  background-color: var(--neutral-background-color1);
+}
+
+.contact-page-container {
+  margin: 77px auto;
+  padding: 0;
+  width: 930px;
+  height: 500px;
+  background-color: var(--neutral-background-color4);
+  border-radius: 20px;
+}
+
+.contact-page-left {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../assets/images/plant-image.jpg");
+  opacity: 40%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-size: cover;
+}
+
+.contact-details-section {
+  margin: 0;
+  padding: 19px 0 0 0;
+  text-align: center;
+  background-color: var(--neutral-background-color5);
+  border-bottom-left-radius: 20px;
+}
+
+.role-details {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+.email-address-info {
+  margin: 0;
+  padding: 5px 0 0 0;
+}
+
+.social-media-icon-section ul li {
+  display: inline;
+  padding: 0 15.5px 0 15.5px;
+}
+
+.social-media-icon-section {
+  padding: 18px 0 0 0;
+}
+
+.contact-page-right {
+  padding: 62px 0 0 50px;
+}
+
+.contact-page-content {
+  padding: 12px 0 0 0;
+}
+
+.contact-page-container h4 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-page-container p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-page-point {
+  width: 25px;
+  height: 25px;
+  background-color: var(--primary-color);
+  border-radius: 70%;
+}
+
+.contact-page-info {
+  width: 450px;
+}
+
+.contact-page-button {
+  font-size: 18px;
+  width: 170px;
+  height: 36px;
+  border-radius: 30px;
+  color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+  background-color: #fff;
+}
+
+.contact-page-buttons {
+  display: flex;
+  padding: 0 73px 0 0;
+  gap: 27px;
+  justify-content: right;
+}
