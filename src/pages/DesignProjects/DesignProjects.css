@@ -65,7 +65,7 @@ body {
   padding: 70px 0 70px 0;
 }
 
-.design-project-background {
+.design-project1-background {
   height: 550px;
   background: linear-gradient(to bottom, #248a3d, #b9e6b7);
   border-top-left-radius: 20px;
@@ -358,7 +358,7 @@ body {
   padding: 0 0 70px 0;
 }
 
-.design-project-background {
+.design-project2-background {
   height: 550px;
   background: linear-gradient(to bottom, #3836f5, #ecf2ff);
   border-top-left-radius: 20px;
@@ -382,21 +382,24 @@ body {
 
 .design-projects-display {
   margin: 0 auto;
-  padding: 40px 0 0 0;
+  padding: 90px 0 100px 0;
+  text-align: center;
 }
 
 .design-project-display-image {
   margin: 0 auto;
-  padding: 60px 0 0 0;
+  padding: 0px 0 0 0;
   width: 400px;
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.25);
+}
+
+.design-projects-desktop-display {
+  display: inline;
+  padding: 0 50px 0 0;
 }
 
 .design-projects-display ul li {
   list-style-type: none;
-}
-
-.design-projects-display {
-  text-align: center;
 }
 
 .color-project2-circle1 {

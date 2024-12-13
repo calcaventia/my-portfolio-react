@@ -26,14 +26,12 @@ function DesignProject1() {
             </h1>
           </div>
           <div className="next-button-container">
-            <button className="next-button">
-              <Link to="/designproject2" className="next-project-link">
-                Next Project
-              </Link>
-            </button>
+            <Link to="/designproject2" className="next-project-link">
+              <button className="next-button"> Next Project </button>
+            </Link>
           </div>
 
-          <div className="design-project-background">
+          <div className="design-project1-background">
             <div className="design-project-images">
               <ul>
                 <li className="main-images">
@@ -568,11 +566,9 @@ function DesignProject1() {
             </p>
           </div>
           <div className="next-button-container" id="bottom-page-button">
-            <button className="next-button">
-              <Link to="/designproject2" className="next-project-link">
-                Next Project
-              </Link>
-            </button>
+            <Link to="/designproject2" className="next-project-link">
+              <button className="next-button"> Next Project </button>
+            </Link>
           </div>
         </div>
       </main>
