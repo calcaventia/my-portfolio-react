@@ -141,7 +141,11 @@ function CodingProjects() {
                   </a>
                 </button>
                 <button className="site-button">
-                  <a href="/" target="blank" className="website-link">
+                  <a
+                    href="https://tintswalo-mabuza.netlify.app/"
+                    target="blank"
+                    className="website-link"
+                  >
                     Website
                   </a>
                 </button>
