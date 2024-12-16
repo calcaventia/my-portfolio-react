@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import "../../pages/DesignProjects/DesignProjects.css";
-import DesktopUI from "../../assets/images/portfolio-UI-Desktop.png";
+import DesktopUI from "../../assets/images/portfolio-UIDesktop.png";
 import FigmaIcon from "../../assets/icons-img/figma-icon.png";
 import PhotopeaIcon from "../../assets/icons-img/photopea-icon.png";
 import DesignDisplay1 from "../../assets/images/portfolio-UI-1.JPG";
