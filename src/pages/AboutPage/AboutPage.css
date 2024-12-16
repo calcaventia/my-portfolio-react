@@ -1,6 +1,6 @@
 *,
-*:: after,
-*:: before {
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -12,9 +12,7 @@
   --neutral-background-color3: #f2f2f2;
   --neutral-background-color4: #f9f9f9;
   --neutral-background-color5: #e0e0e0;
-  --menu-header-text-color: #4b4b4b;
-  --menu-footer-text-color: #ecf2ff;
-  --body-text-color: #00000;
+  --body-text-color: #000;
 }
 
 body {
