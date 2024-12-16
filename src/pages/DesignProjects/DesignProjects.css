@@ -144,6 +144,20 @@ body {
   text-align: justify;
 }
 
+.problem-statement-video {
+  text-align: center;
+}
+
+.spot-buddie-video {
+  border-radius: 30px;
+}
+
+.video-play {
+  padding: 10px 0 0 0;
+  font-weight: 600;
+  color: #248a3d;
+}
+
 .challenges-section {
   margin: 0px auto;
   padding: 40px 0 0 0;

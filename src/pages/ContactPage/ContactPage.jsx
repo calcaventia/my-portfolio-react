@@ -1,8 +1,9 @@
 import React from "react";
 import "../../pages/ContactPage/ContactPage.css";
-import PlantImage from "../../assets/images/plant-image.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import ContactImage from "../../assets/profile-img/profile-image-1.1.jpg";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -10,7 +11,9 @@ function Contact() {
       <main>
         <div className="row contact-page-container">
           <div className="col-5 contact-page-left">
-            <img src={PlantImage} alt="" className="plant-image" />
+            <div className="image-background">
+              <img src={ContactImage} alt="" className="contact-page-image" />
+            </div>
             <div className="contact-details-section">
               <p className="role-details">Web Developer and Web Designer</p>
               <p className="email-address-info">tintswalomabuza10@gmail.com</p>
@@ -18,7 +21,7 @@ function Contact() {
                 <ul>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/tintswalo-mabuza-39212a37/"
+                      href="https://github.com/calcaventia/"
                       className="linkedin-icon"
                       target="blank"
                     >
@@ -50,36 +53,43 @@ function Contact() {
             <h4>Contact me</h4>
             <div className="row contact-page-content">
               <div className="col-1 contact-page-point"></div>
-              <div className="col-9 contact-page-info">
+              <div className="col-10 contact-page-info">
                 <p>
-                  Hire me: Need a frontend developer with UI/UX design expertise
-                  to bring your vision to life? Let's create something
-                  exceptional together!
+                  <span className="contact-highlight">Hire me: </span>Need a
+                  frontend developer with UI/UX design expertise to bring your
+                  vision to life? Let's create something exceptional together!
                 </p>
               </div>
             </div>
             <div className="row">
               <div className="col-1 contact-page-point"></div>
-              <div className="col-9 contact-page-info">
+              <div className="col-10 contact-page-info">
                 <p>
-                  Collaborate on Projects: Have an exciting project idea? I’d
-                  love to work with you to create impactful and innovative
-                  solutions.
+                  <span className="contact-highlight">
+                    Collaborate on Projects:{" "}
+                  </span>
+                  Have an exciting project idea? I’d love to work with you to
+                  create impactful and innovative solutions.
                 </p>
               </div>
             </div>
             <div className="row">
               <div className="col-1 contact-page-point"></div>
-              <div className="col-9 contact-page-info">
+              <div className="col-10 contact-page-info">
                 <p>
-                  Connect: Want to chat about ideas, opportunities, or share
-                  insights? Let’s connect and start a conversation!
+                  <span className="contact-highlight">Connect: </span>Want to
+                  chat about ideas, opportunities, or share insights? Let’s
+                  connect and start a conversation!
                 </p>
               </div>
             </div>
             <div className="contact-page-buttons">
-              <button className="contact-page-button">Go to projects</button>
-              <button className="contact-page-button">Go to projects</button>
+              <a href="mailto:tintswalomabuza10@gmail.com">
+                <button className="contact-page-button">Contact me</button>
+              </a>
+              <Link to="/" className="next-project-link">
+                <button className="contact-page-button">back to home</button>
+              </Link>
             </div>
           </div>
         </div>
