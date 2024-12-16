@@ -5,6 +5,7 @@ import "../../pages/DesignProjects/DesignProjects.css";
 import AppImage1 from "../../assets/images/SpotBuddie-UI-1.JPG";
 import AppImage2 from "../../assets/images/SpotBuddie-UI-2.JPG";
 import AppImage3 from "../../assets/images/SpotBuddie-UI-3.JPG";
+import SpotBuddieVideo from "../../assets/video/spot-buddie-video.mp4";
 import FigmaIcon from "../../assets/icons-img/figma-icon.png";
 import PhotopeaIcon from "../../assets/icons-img/photopea-icon.png";
 import GoogleFIcon from "../../assets/icons-img/Google_forms_icon.png";
@@ -73,7 +74,12 @@ function DesignProject1() {
                     Bluetooth range.
                   </p>
                 </div>
-                <div className="col-4 problem-statement-video">Video</div>
+                <div className="col-4 problem-statement-video">
+                  <video className="spot-buddie-video" muted controls>
+                    <source src={SpotBuddieVideo} type="video/mp4" />
+                  </video>
+                  <p className="video-play">Play video</p>
+                </div>
               </div>
             </div>
             <div className="challenges-section">

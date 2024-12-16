@@ -48,7 +48,7 @@ function Footer() {
             <ul>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/tintswalo-mabuza-39212a37/"
+                  href="mailto:tintswalomabuza10@gmail.com"
                   className="linkedin-icon"
                   target="blank"
                 >
@@ -61,7 +61,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/tintswalo-mabuza-39212a37/"
+                  href="https://github.com/calcaventia/"
                   className="linkedin-icon"
                   target="blank"
                 >

@@ -171,7 +171,9 @@ function LandingPage() {
         <div className="contact-container">
           <p>Want to know more about what I do?</p>
 
-          <button className="medium-button">Contact me</button>
+          <a href="mailto:tintswalomabuza10@gmail.com">
+            <button className="medium-button">Contact me</button>
+          </a>
         </div>
       </main>
       <Footer />

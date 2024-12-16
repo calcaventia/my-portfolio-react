@@ -16,7 +16,7 @@ function About() {
           <div className="row left-side">
             <div className="col-1 circle-left"></div>
             <div className="col-4 text-bubble-left">
-              Tell me some fun facts about you...
+              <p> Tell me some fun facts about you...</p>
             </div>
           </div>
           <div className="row right-side">
@@ -39,8 +39,7 @@ function About() {
               Anything creative gets me fired up...there’s always something new
               to discover. I try not to box myself in - I try to do as many
               creative things as I can. Whether it’s drawing, designing, cooking
-              or building something...there’s always room for my mind to just
-              be.
+              or building something...there’s always room for my mind
             </div>
             <div className="col-1 circle-right"></div>
           </div>
@@ -114,7 +113,9 @@ function About() {
         </div>
         <div className="contact-info">
           <p>"I'm intrigued...where can I reach you?"</p>
-          <button className="about-contact-button">Contact me</button>
+          <a href="mailto:tintswalomabuza10@gmail.com">
+            <button className="about-contact-button">Contact me</button>
+          </a>
         </div>
       </main>
       <Footer />
