@@ -33,8 +33,9 @@ function LandingPage() {
             <p className="body-text-medium">
               Specialises in{" "}
               <span className="key-info">frontend development</span> and
-              utilising <span className="key-info">UI/UX design</span>
-              principles to create impactful{" "}
+              utilising <span className="key-info">UI/UX design </span>
+              principles and <span className="key-info">SEO </span>best
+              practices to create impactful{" "}
               <span className="key-info">websites and applications</span> that
               add value to startups, agencies and large organisations.
             </p>
