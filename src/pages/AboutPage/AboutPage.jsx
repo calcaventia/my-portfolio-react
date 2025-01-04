@@ -39,7 +39,8 @@ function About() {
               Anything creative gets me fired up...there’s always something new
               to discover. I try not to box myself in - I try to do as many
               creative things as I can. Whether it’s drawing, designing, cooking
-              or building something...there’s always room for my mind
+              or building something...there’s always room for my mind to wander
+              and explore.
             </div>
             <div className="col-1 circle-right"></div>
           </div>
