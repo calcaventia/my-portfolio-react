@@ -11,6 +11,7 @@ body {
 
 :root {
   --primary-color: #3836f5;
+  --secondary-color: #f87c48;
   --menu-header-text-color: #4b4b4b;
 }
 
@@ -42,4 +43,59 @@ nav ul {
   align-items: left;
   gap: 61px;
   list-style: none;
+}
+
+.hamburger-menu {
+  display: none; /* Initially hidden */
+  color: var(--primary-color);
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.hamburger-menu .faBars {
+  font-size: 2rem;
+}
+
+.hamburger-menu:hover {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    padding: 15px 0;
+  }
+
+  nav {
+    padding: 0 10px 0 10px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block; /* Show hamburger on mobile */
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    gap: 20px;
+    background-color: white;
+    padding: 20px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  nav ul li .menu-option {
+    font-size: 15px;
+  }
 }
