@@ -18,14 +18,14 @@ function LandingPage() {
       <main>
         {/*Hero-Section*/}
         <div className="row hero-container">
-          <div className="col-sm-6 order-sm-1  hero-image">
+          <div className="col-12 col-md-6   hero-image">
             <img
               src={HeroImage}
               alt="African woman who is in Tech "
               className="hero-profile-image"
             />
           </div>
-          <div className="col-sm-6 order-sm-2 hero-text">
+          <div className="col-12 col-md-6  hero-text">
             <p className="author-name">
               Tintswalo.<span className="initial">M</span>
             </p>
@@ -47,7 +47,7 @@ function LandingPage() {
           {/*about-section*/}
 
           <div className="row about-container">
-            <div className="col-sm-6 order-sm-1 about-content">
+            <div className="col-12 col-md-6 order-sm-1 about-content">
               <h2 className="section-heading">About Me</h2>
               <p className="sub-heading">Software Developer</p>
               <p className="about-content-body">
@@ -67,7 +67,7 @@ function LandingPage() {
               </p>
               <button className="medium-button">Tell me more</button>
             </div>
-            <div className="col-sm-6 order-sm-2  about-image">
+            <div className="col-12 col-md-6 order-sm-2  about-image">
               <img
                 src={AboutImage}
                 alt=""
@@ -88,17 +88,15 @@ function LandingPage() {
               <div className="col me-3 technical-skill">React</div>
               <div className="col me-3 technical-skill">Bootstrap</div>
               <div className="col me-3 technical-skill">MongoDB</div>
-              <div className="col technical-skill">Git</div>
+              <div className="col me-3 technical-skill">Git</div>
             </div>
             <div className="row t-s-container2">
               <div className="col me-2 technical-skill">MySQL</div>
               <div className="col me-2 technical-skill">GitHub</div>
               <div className="col me-2 technical-skill">Wordpress</div>
               <div className="col me-2 technical-skill">Figma</div>
-              <div className="col-3 me-2 technical-skill">
-                UI/UX Design Principles
-              </div>
-              <div className="col technical-skill">Photopea</div>
+              <div className="col me-2 technical-skill">UI/UX Design</div>
+              <div className="col me-2 technical-skill">Photopea</div>
             </div>
           </div>
 
@@ -139,31 +137,31 @@ function LandingPage() {
               members.
             </p>
             <div className="row project-gallery">
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <img src={GalleryImage1} alt="" className="gallery-images" />
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <img src={GalleryImage2} alt="" className="gallery-images" />
               </div>
             </div>
             <div className="row project-gallery">
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <img src={GalleryImage3} alt="" className="gallery-images" />
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <img src={GalleryImage4} alt="" className="gallery-images" />
               </div>
             </div>
             <div className="row project-gallery">
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <img src={GalleryImage5} alt="" className="gallery-images" />
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6">
                 <img src={GalleryImage6} alt="" className="gallery-images" />
               </div>
-              <div className="experience-button">
-                <button className="medium-button">Go to projects</button>
-              </div>
+            </div>
+            <div className="experience-button">
+              <button className="medium-button">Go to projects</button>
             </div>
           </div>
         </div>
