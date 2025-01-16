@@ -23,7 +23,7 @@ function CodingProjects() {
         <div className="project-container">
           <img src={ProjectImageMain1} alt="" className="project-image-main" />
           <div className="row project-content">
-            <div className="col-8 project-body">
+            <div className="col-12 col-sm-8 order-sm-2 project-body">
               <h4>EWSETA Career Site</h4>
               <p className="body-text-large">
                 I developed this project as part of a competition hosted by the
@@ -60,7 +60,7 @@ function CodingProjects() {
                 </button>
               </div>
             </div>
-            <div className="col-4 project-image">
+            <div className="col-12 col-sm-4 order-sm-1 project-image">
               <img src={SubImage1} alt="" className="sub-image" />
             </div>
           </div>
@@ -69,7 +69,7 @@ function CodingProjects() {
         <div className="project-container">
           <img src={ProjectImageMain2} alt="" className="project-image-main" />
           <div className="row project-content">
-            <div className="col-8 project-body">
+            <div className="col-12 col-sm-8 project-body">
               <h4>Home Makeover Website</h4>
               <p className="body-text-large">
                 Built a responsive and modern web application using Bootstrap,
@@ -106,7 +106,7 @@ function CodingProjects() {
                 </button>
               </div>
             </div>
-            <div className="col-4 project-image">
+            <div className="col-12 col-sm-4 order-sm-1 project-image">
               <img src={SubImage2} alt="" className="sub-image" />
             </div>
           </div>
@@ -115,7 +115,7 @@ function CodingProjects() {
         <div className="project-container">
           <img src={ProjectImageMain3} alt="" className="project-image-main" />
           <div className="row project-content">
-            <div className="col-8 project-body">
+            <div className="col-12 col-sm-8 order-sm-2 project-body">
               <h4>Professional Portfolio Website</h4>
               <p className="body-text-large">
                 I created a personal portfolio to highlight my skills and
@@ -151,7 +151,7 @@ function CodingProjects() {
                 </button>
               </div>
             </div>
-            <div className="col-4 project-image">
+            <div className="col-12 col-sm-4 order-sm-1 project-image">
               <img src={SubImage3} alt="" className="sub-image" />
             </div>
           </div>
