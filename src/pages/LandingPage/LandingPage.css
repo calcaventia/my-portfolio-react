@@ -198,6 +198,7 @@ h4 {
   color: var(--primary-color);
   font-family: "Poppins", sans-serif;
   letter-spacing: 5px;
+  text-align: center;
 }
 
 .t-s-container {
@@ -223,6 +224,11 @@ h4 {
   margin: 0 auto;
   width: 930px;
   padding: 80px 0 20px 0;
+}
+
+.soft-skills-container h2 {
+  font-size: 35px;
+  text-align: center;
 }
 
 .soft-skills-container p {
@@ -288,4 +294,377 @@ h4 {
 .contact-container p {
   padding: 160px 0 0 0;
   font-size: 40px;
+}
+
+@media screen and (max-width: 819px) {
+  .hero-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 350px;
+    height: 710px;
+  }
+
+  .hero-image {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    text-align: center;
+  }
+
+  .hero-profile-image {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    max-width: 300px;
+  }
+  .author-name {
+    font-size: 40px;
+  }
+
+  .hero-text {
+    margin-top: 0px;
+    width: 350px;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 18px;
+  }
+
+  .hero-text .body-text-medium {
+    padding: 15px 15px;
+    font-size: 15px;
+  }
+
+  .hero-text .large-button {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .content-background {
+    width: 350px;
+  }
+
+  .about-container {
+    padding: 40px 20px 40px 20px;
+    width: 350px;
+    text-align: center;
+  }
+
+  .about-image {
+    display: none;
+  }
+
+  .about-content {
+    padding: 0;
+    text-align: center;
+  }
+
+  .about-content h2 {
+    font-size: 35px;
+  }
+
+  .sub-heading {
+    font-size: 16px;
+  }
+
+  .about-content .about-content-body {
+    font-size: 16px;
+  }
+
+  .medium-button {
+    font-size: 15px;
+    width: 150px;
+    border: 3px solid var(--secondary-color);
+  }
+
+  .technical-skills-container {
+    padding: 30px 0 0px 0;
+    width: 350px;
+  }
+
+  .technical-skills-container h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .t-s-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .t-s-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .technical-skill {
+    margin: 3px;
+    padding: 3px 0 3px 0;
+    text-align: center;
+    background-color: var(--neutral-background-color5);
+    width: 300px;
+  }
+
+  .soft-skills-container {
+    width: 300px;
+  }
+
+  .soft-skills-container p {
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .soft-skills-container #heading-text {
+    margin: 0;
+    padding: 22px 0 0 0;
+  }
+
+  .soft-skills-container h4 {
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  .project-gallery {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0px;
+    align-content: center;
+  }
+
+  .experience-container {
+    margin: 0 auto;
+    padding: 80px 0 80px 0;
+    width: 300px;
+    align-content: center;
+  }
+
+  .experience-container h2 {
+    text-align: center;
+  }
+
+  .experience-container p {
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .gallery-images {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+    border: 10px solid var(--neutral-background-color3);
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .experience-button {
+    padding: 40px 0 0 0;
+    text-align: center;
+  }
+
+  .contact-container {
+    margin-bottom: 60px;
+    width: 350px;
+    height: 300px;
+  }
+
+  .contact-container p {
+    padding: 90px 0 0 0;
+    font-size: 24px;
+    width: 300px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px) and (orientation: portrait) {
+  .hero-container {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    height: 350px;
+  }
+
+  .hero-image {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    text-align: center;
+  }
+
+  .hero-profile-image {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    max-width: 300px;
+  }
+  .author-name {
+    font-size: 40px;
+  }
+
+  .hero-text {
+    margin-top: 40px;
+    width: 350px;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 18px;
+  }
+
+  .hero-text .body-text-medium {
+    padding: 15px 15px;
+    font-size: 15px;
+  }
+
+  .hero-text .large-button {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .content-background {
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+  }
+
+  /*About section*/
+
+  .about-container {
+    margin: 0 auto;
+    padding: 80px 0 20px 0;
+    width: 750px;
+  }
+
+  .about-content {
+    padding: 0px 0 0 0;
+    text-align: right;
+  }
+
+  .about-content h2 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 40px;
+    color: var(--primary-color);
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 5px;
+  }
+
+  .sub-heading {
+    font-size: 16px;
+  }
+
+  .about-content .about-content-body {
+    font-size: 16px;
+  }
+
+  .medium-button {
+    font-size: 15px;
+    width: 150px;
+    border: 3px solid var(--secondary-color);
+  }
+
+  .technical-skills-container {
+    padding: 30px 0 0px 0;
+    width: 750px;
+  }
+
+  .technical-skills-container h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .t-s-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .t-s-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .technical-skill {
+    margin: 3px;
+    padding: 3px 0 3px 0;
+    text-align: center;
+    background-color: var(--neutral-background-color5);
+    width: 750px;
+  }
+
+  .soft-skills-container {
+    width: 750px;
+  }
+
+  .soft-skills-container p {
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .soft-skills-container #heading-text {
+    margin: 0;
+    padding: 22px 0 0 0;
+  }
+
+  .soft-skills-container h4 {
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+  .project-gallery {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0px;
+    align-content: center;
+  }
+
+  .experience-container {
+    margin: 0 auto;
+    padding: 80px 0 80px 0;
+    width: 750px;
+  }
+
+  .experience-container h2 {
+    text-align: center;
+  }
+
+  .experience-body {
+    font-size: 15px;
+    width: 750px;
+    text-align: center;
+  }
+
+  .gallery-images {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+    border: 10px solid var(--neutral-background-color3);
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .contact-container {
+    margin-bottom: 60px;
+    width: 800px;
+    height: 300px;
+  }
+
+  .contact-container p {
+    padding: 90px 0 0 0;
+    font-size: 24px;
+    width: 600px;
+    text-align: center;
+  }
 }
