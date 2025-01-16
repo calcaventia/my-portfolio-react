@@ -58,7 +58,7 @@ function DesignProject1() {
             <div className="problem-statement">
               <p className="section-heading">Problem Statement</p>
               <div className="row problem-statement-section">
-                <div className="col-8 problem-statement-content">
+                <div className="col-12 col-sm-8 problem-statement-content">
                   <p className="text-content">
                     Busy professionals often face challenges in keeping track of
                     essential items like car keys, wallets, or headphones,
@@ -74,7 +74,7 @@ function DesignProject1() {
                     Bluetooth range.
                   </p>
                 </div>
-                <div className="col-4 problem-statement-video">
+                <div className="col-12 col-sm-4 problem-statement-video">
                   <video className="spot-buddie-video" muted controls>
                     <source src={SpotBuddieVideo} type="video/mp4" />
                   </video>
@@ -123,7 +123,7 @@ function DesignProject1() {
               </ul>
             </div>
             <div className="row project-info">
-              <div className="col-5">
+              <div className="col-12 col-sm-5">
                 <p className="project-duration-heading">Project Duration</p>
                 <div className="row project-duration">
                   <div className="col-2 duration-number">3</div>
@@ -135,12 +135,13 @@ function DesignProject1() {
                 </div>
               </div>
 
-              <div className="col-7 tools-used">
+              <div className="col-12 col-sm-7 tools-used">
                 <p className="project-tools-heading">Tools Used</p>
                 <div className="row ">
                   <div className="row project-tools">
-                    <div className="col-2 tools-used-image">
+                    <div className="col-2  tools-used-image">
                       <img src={FigmaIcon} alt="" className="tools-used-icon" />
+                      <p className="image-label">Figma</p>
                     </div>
                     <div className="col-2 tools-used-image">
                       <img
@@ -148,6 +149,7 @@ function DesignProject1() {
                         alt=""
                         className="tools-used-photopea-icon"
                       />
+                      <p className="image-label">Photo-pea</p>
                     </div>
                     <div className="col-2 tools-used-image">
                       <img
@@ -155,6 +157,7 @@ function DesignProject1() {
                         alt=""
                         className="tools-used-icon"
                       />
+                      <p className="image-label">Google Forms</p>
                     </div>
                     <div className="col-2 tools-used-image">
                       <img
@@ -162,6 +165,7 @@ function DesignProject1() {
                         alt=""
                         className="tools-used-icon"
                       />
+                      <p className="image-label">Google Sheets</p>
                     </div>
                     <div className="col-2 tools-used-image">
                       <img
@@ -169,14 +173,8 @@ function DesignProject1() {
                         alt=""
                         className="tools-used-icon"
                       />
+                      <p className="image-label">Google Docs</p>
                     </div>
-                  </div>
-                  <div className="row project-duration">
-                    <div className="col-2 image-label">Figma</div>
-                    <div className="col-2 image-label">Photopea</div>
-                    <div className="col-2 image-label">Google Forms</div>
-                    <div className="col-2 image-label">Google Sheets</div>
-                    <div className="col-2 image-label">Google Docs</div>
                   </div>
                 </div>
               </div>
@@ -193,12 +191,12 @@ function DesignProject1() {
               <p>User-Interface Design Elements</p>
             </div>
             <div className="row interface-items">
-              <div className="col-6 logo-items">
+              <div className="col-12 col-sm-6 logo-items">
                 <p className="UI-section-heading ">Logo</p>
                 <hr />
                 <img src={LogoItem} alt="" className="logo-item-image" />
               </div>
-              <div className="col-6 color-palette">
+              <div className="col-12 col-sm-6 color-palette">
                 <p className="UI-section-heading ">Colour Palette</p>
 
                 <hr />
@@ -217,14 +215,14 @@ function DesignProject1() {
                 <p className="UI-section-heading">Typography</p>
                 <hr />
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-12 col-sm-6">
                     <ul>
                       <li className="font-19">Typography</li>
                       <li className="font-17">Typography</li>
                       <li className="font-12">Typography</li>
                     </ul>
                   </div>
-                  <div className="col-6 font-main">
+                  <div className="col-12 col-sm-6 font-main">
                     <p className="font-name">SF Pro Text</p>
                     <p className="font-letter">Aa.</p>
                   </div>
@@ -237,6 +235,7 @@ function DesignProject1() {
                   <ul>
                     <li>
                       <svg
+                        className="custom-icon"
                         width="73"
                         height="48"
                         viewBox="0 0 73 48"
@@ -326,6 +325,7 @@ function DesignProject1() {
                     </li>
                     <li>
                       <svg
+                        className="custom-icon"
                         width="59"
                         height="41"
                         viewBox="0 0 59 41"
@@ -382,6 +382,7 @@ function DesignProject1() {
                     </li>
                     <li>
                       <svg
+                        className="custom-icon"
                         width="71"
                         height="41"
                         viewBox="0 0 71 41"
@@ -412,6 +413,7 @@ function DesignProject1() {
                     </li>
                     <li>
                       <svg
+                        className="custom-icon"
                         width="70"
                         height="46"
                         viewBox="0 0 70 46"
@@ -482,6 +484,7 @@ function DesignProject1() {
                     </li>
                     <li>
                       <svg
+                        className="custom-icon"
                         width="64"
                         height="51"
                         viewBox="0 0 64 51"
@@ -514,6 +517,7 @@ function DesignProject1() {
                     </li>
                     <li>
                       <svg
+                        className="custom-icon"
                         width="75"
                         height="34"
                         viewBox="0 0 75 34"
