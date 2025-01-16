@@ -210,8 +210,30 @@ h4 {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1180px) and (orientation: portrait) {
-  .code-projects-heading,
+  .code-projects-heading {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 50px;
+    font-size: 250px;
+    letter-spacing: 20px;
+    width: 800px;
+  }
   .project-container {
+    padding: 20px;
+    align-content: center;
+    width: 800px;
+    height: 850px;
+  }
+  .project-content p {
     width: 95%;
+    font-size: 15px;
+  }
+
+  .project-image-main {
+    width: 100%;
+  }
+
+  .sub-image {
+    width: 100%;
   }
 }

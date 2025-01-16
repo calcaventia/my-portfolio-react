@@ -225,7 +225,6 @@ body {
   margin: 0;
   padding: 0;
   font-size: 15px;
-  width: 90px;
 }
 
 .spot-buddie-desktop {
@@ -508,4 +507,353 @@ body {
   background-color: var(--neutral-background-color3);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .design-projects-heading {
+    margin-top: 50px;
+    font-size: 85px;
+    letter-spacing: 10px;
+    width: 350px;
+  }
+
+  .design-content-container {
+    margin: 0 auto;
+    width: 350px;
+  }
+
+  .next-button {
+    font-size: 15px;
+    width: 130px;
+    height: 30px;
+    border-radius: 30px;
+    color: var(--secondary-color);
+    border: 3px solid var(--secondary-color);
+    background-color: #fff;
+  }
+
+  .design-project1-background {
+    width: 350px;
+    height: 270px;
+  }
+
+  .main-images {
+    padding: 0 10px 0 0;
+  }
+
+  .app-image {
+    margin: 40px 0 0 0;
+    width: 90px;
+  }
+  .project-name {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 20px 30px 0px;
+  }
+
+  .design-background {
+    width: 350px;
+  }
+
+  .design-heading {
+    padding: 40px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .project-description {
+    font-size: 15px;
+    margin: 17px auto;
+    width: 300px;
+    text-align: center;
+  }
+
+  .section-heading {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+
+  .problem-statement-content .text-content {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    width: 300px;
+  }
+
+  .problem-statement {
+    margin: 0px auto;
+    padding: 58px 0 0 0;
+    width: 300px;
+  }
+
+  .problem-statement-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .problem-statement .text-content {
+    text-align: justify;
+  }
+
+  .problem-statement-video {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .spot-buddie-video {
+    border-radius: 30px;
+    width: 180px;
+  }
+
+  .video-play {
+    padding: 10px 0 0 0;
+    font-weight: 600;
+    color: #248a3d;
+  }
+
+  .challenges-section {
+    margin: 0px auto;
+    padding: 40px 0 0 0;
+    width: 300px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .challenges-section .text-content {
+    text-align: justify;
+  }
+
+  .solution-section {
+    margin: 0px auto;
+    padding: 40px 0 0 0;
+    width: 300px;
+    font-size: 12px;
+  }
+
+  .solution-section ul {
+    list-style-type: disc;
+    text-align: justify;
+  }
+
+  .project-info {
+    margin: 0 auto;
+    padding: 40px 0 0 20px;
+    width: 350px;
+  }
+
+  .project-duration-heading,
+  .project-tools-heading,
+  .icon-section-heading {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .duration-number,
+  .screen-number {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .project-duration-days,
+  .project-screens {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .project-tools {
+    margin-left: 10px;
+  }
+
+  .project-tools-heading {
+    margin-top: 30px;
+  }
+
+  .tools-used-icon {
+    width: 30px;
+  }
+
+  .tools-used-photopea-icon {
+    width: 40px;
+  }
+
+  .tools-used-image {
+    font-size: 12px;
+  }
+
+  .spot-buddie-desktop {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .desktop-version {
+    width: 300px;
+  }
+
+  .interface-background {
+    width: 350px;
+    height: 1250px;
+  }
+
+  .interface-section-heading p {
+    padding: 60px 0 0 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .UI-section-heading {
+    font-size: 16px;
+  }
+
+  .logo-items {
+    padding: 10px 10px 0 30px;
+  }
+
+  .logo-item-image {
+    margin: 10px 0 20px 30px;
+    width: 80px;
+  }
+
+  .color-palette {
+    padding: 10px 10px 0 30px;
+  }
+
+  .color-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .color-group {
+    margin: 30px 0 30px 30px;
+  }
+
+  .typography-section {
+    padding: 10px 10px 0 30px;
+  }
+
+  .font-name {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 24px;
+  }
+
+  .font-letter {
+    margin-left: 30px;
+    font-size: 24px;
+  }
+
+  .app-icons-section {
+    padding: 30px 10px 0 30px;
+  }
+
+  .app-icons {
+    margin: 30px auto;
+    width: 250px;
+  }
+
+  .app-icons ul li {
+    display: inline;
+    padding: 0 50px 0 0;
+  }
+
+  .custom-icon {
+    width: 50px;
+  }
+
+  .disclaimer {
+    margin: 30px auto;
+    font-size: 12px;
+    text-align: center;
+    width: 300px;
+  }
+
+  #bottom-page-button {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0px 0 0px 0;
+  }
+
+  /*Design project 2*/
+
+  .previous-button {
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    color: var(--secondary-color);
+    border: 3px solid var(--secondary-color);
+    background-color: #fff;
+  }
+
+  .previous-project-link {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+
+  .previous-button-container {
+    padding: 0 0 70px 0;
+  }
+
+  .design-project2-background {
+    height: 550px;
+    background: linear-gradient(to bottom, #3836f5, #ecf2ff);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .portfolio-main-image {
+    display: block;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+    width: 500px;
+  }
+
+  .project2-name {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600px;
+    text-align: right;
+    padding: 30px 60px 0px 0px;
+  }
+
+  .design-projects-display {
+    margin: 0 auto;
+    padding: 90px 0 100px 0;
+    text-align: center;
+  }
+
+  .design-project-display-image {
+    margin: 0 auto;
+    padding: 0px 0 0 0;
+    width: 400px;
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.25);
+  }
+
+  .design-projects-desktop-display {
+    display: inline;
+    padding: 0 50px 0 0;
+  }
+
+  .design-projects-display ul li {
+    list-style-type: none;
+  }
+
+  .app-icons {
+    margin: 30px auto;
+  }
+
+  .app-icons ul li {
+    display: inline;
+    padding: 0 50px 0 0;
+  }
+
+  .interface2-background {
+    width: 800px;
+    height: 1150px;
+    background-color: var(--neutral-background-color3);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
 }
