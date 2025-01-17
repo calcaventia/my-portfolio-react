@@ -296,7 +296,7 @@ h4 {
   font-size: 40px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
   .hero-container {
     margin: 0 auto;
     padding: 0;
@@ -473,8 +473,6 @@ h4 {
     margin-bottom: 60px;
     width: 95%;
     height: 300px;
-    justify-items: center;
-    align-items: center;
   }
 
   .contact-container p {
@@ -485,7 +483,7 @@ h4 {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1180px) and (orientation: portrait) {
+@media screen and (min-width: 901px) and (max-width: 2688px) and (orientation: portrait) {
   .hero-container {
     margin: 0 auto;
     padding: 0;
