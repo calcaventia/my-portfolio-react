@@ -46,17 +46,14 @@ function DesignProject2() {
             </p>
             <div className="problem-statement">
               <p className="section-heading">Problem Statement</p>
-              <div className="row problem-statement-section">
-                <p className="text-content">
-                  The primary challenge was to create a professional portfolio
-                  that not only showcases my skills and projects but also
-                  appeals to recruiters and hiring managers. Given the highly
-                  competitive job market, it was important for me to design a
-                  portfolio that stands out, is easy to navigate, and clearly
-                  communicates my expertise in frontend development and UI/UX
-                  design.
-                </p>
-              </div>
+              <p className="text-content">
+                The primary challenge was to create a professional portfolio
+                that not only showcases my skills and projects but also appeals
+                to recruiters and hiring managers. Given the highly competitive
+                job market, it was important for me to design a portfolio that
+                stands out, is easy to navigate, and clearly communicates my
+                expertise in frontend development and UI/UX design.
+              </p>
             </div>
             <div className="challenges-section">
               <p className="section-heading">Challenges</p>
@@ -105,7 +102,7 @@ function DesignProject2() {
               </ul>
             </div>
             <div className="row project-info">
-              <div className="col-5">
+              <div className="col-12 col-sm-5">
                 <p className="project-duration-heading">Project Duration</p>
                 <div className="row project-duration">
                   <div className="col-2 duration-number">2</div>
@@ -113,16 +110,17 @@ function DesignProject2() {
                 </div>
                 <div className="row project-duration">
                   <div className="col-2 project-duration-days">weeks</div>
-                  <div className="col-2 project-sreens">screens</div>
+                  <div className="col-2 project-screens">screens</div>
                 </div>
               </div>
 
-              <div className="col-7 tools-used">
+              <div className="col-12 col-sm-7 tools-used">
                 <p className="project-tools-heading">Tools Used</p>
                 <div className="row ">
                   <div className="row project-tools">
                     <div className="col-2 tools-used-image">
                       <img src={FigmaIcon} alt="" className="tools-used-icon" />
+                      <p className="image-label">Figma</p>
                     </div>
                     <div className="col-2 tools-used-image">
                       <img
@@ -130,11 +128,8 @@ function DesignProject2() {
                         alt=""
                         className="tools-used-photopea-icon"
                       />
+                      <p className="image-label">Photopea</p>
                     </div>
-                  </div>
-                  <div className="row project-duration">
-                    <div className="col-2 image-label">Figma</div>
-                    <div className="col-2 image-label">Photopea</div>
                   </div>
                 </div>
               </div>
@@ -165,13 +160,13 @@ function DesignProject2() {
             <div className="interface-section-heading">
               <p>User-Interface Design Elements</p>
             </div>
-            <div className="row interface-items">
-              <div className="col-6 logo-items">
+            <div className="row  interface-items">
+              <div className="col-12 col-sm-6 logo-items">
                 <p className="UI-section-heading ">Logo</p>
                 <hr />
                 <img src={PortfolioLogo} alt="" className="logo-item-image" />
               </div>
-              <div className="col-6 color-palette">
+              <div className="col-12 col-sm-6 color-palette">
                 <p className="UI-section-heading ">Colour Palette</p>
 
                 <hr />
@@ -191,8 +186,8 @@ function DesignProject2() {
               <div className="typography-section">
                 <p className="UI-section-heading">Typography</p>
                 <hr />
-                <div className="row">
-                  <div className="col-6">
+                <div className="row ">
+                  <div className="col-12 col-sm-6">
                     <ul>
                       <li className="font-40">Typography</li>
                       <li className="font-35">Typography</li>
@@ -202,7 +197,7 @@ function DesignProject2() {
                       <li className="font-12">Typography</li>
                     </ul>
                   </div>
-                  <div className="col-6 font-main">
+                  <div className="col-12 col-sm-6 font-main">
                     <p className="font-name">Poppins</p>
                     <p className="font-letter">Aa.</p>
                   </div>

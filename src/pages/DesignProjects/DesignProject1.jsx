@@ -131,7 +131,7 @@ function DesignProject1() {
                 </div>
                 <div className="row project-duration">
                   <div className="col-2 project-duration-days">weeks</div>
-                  <div className="col-2 project-sreens">screens</div>
+                  <div className="col-2 project-screens">screens</div>
                 </div>
               </div>
 
@@ -149,7 +149,7 @@ function DesignProject1() {
                         alt=""
                         className="tools-used-photopea-icon"
                       />
-                      <p className="image-label">Photo-pea</p>
+                      <p className="image-label">Photopea</p>
                     </div>
                     <div className="col-2 tools-used-image">
                       <img

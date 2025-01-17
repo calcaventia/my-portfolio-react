@@ -122,7 +122,7 @@ body {
   font-weight: 500;
 }
 
-.problem-statement-content .text-content {
+.problem-statement-content p {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   width: 550px;
@@ -138,7 +138,7 @@ body {
   display: flex;
 }
 
-.problem-statement .text-content {
+.problem-statement p {
   text-align: justify;
 }
 
@@ -164,7 +164,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.challenges-section .text-content {
+.challenges-section p {
   text-align: justify;
 }
 
@@ -510,6 +510,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  /*design 1*/
   .design-projects-heading {
     margin-top: 50px;
     font-size: 85px;
@@ -526,10 +527,6 @@ body {
     font-size: 15px;
     width: 130px;
     height: 30px;
-    border-radius: 30px;
-    color: var(--secondary-color);
-    border: 3px solid var(--secondary-color);
-    background-color: #fff;
   }
 
   .design-project1-background {
@@ -575,9 +572,8 @@ body {
     font-weight: 500;
   }
 
-  .problem-statement-content .text-content {
+  .problem-statement-content p {
     font-size: 12px;
-    font-family: "Poppins", sans-serif;
     width: 300px;
   }
 
@@ -592,7 +588,7 @@ body {
     flex-direction: column;
   }
 
-  .problem-statement .text-content {
+  .problem-statement p {
     text-align: justify;
   }
 
@@ -620,7 +616,7 @@ body {
     font-family: "Poppins", sans-serif;
   }
 
-  .challenges-section .text-content {
+  .challenges-section p {
     text-align: justify;
   }
 
@@ -677,10 +673,9 @@ body {
     width: 40px;
   }
 
-  .tools-used-image {
-    font-size: 12px;
+  .image-label {
+    font-size: 10px;
   }
-
   .spot-buddie-desktop {
     margin: 0 auto;
     padding: 0;
@@ -708,6 +703,7 @@ body {
 
   .logo-items {
     padding: 10px 10px 0 30px;
+    width: 350px;
   }
 
   .logo-item-image {
@@ -717,11 +713,12 @@ body {
 
   .color-palette {
     padding: 10px 10px 0 30px;
+    width: 350px;
   }
 
   .color-circle {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
   }
 
@@ -731,6 +728,7 @@ body {
 
   .typography-section {
     padding: 10px 10px 0 30px;
+    width: 350px;
   }
 
   .font-name {
@@ -778,49 +776,40 @@ body {
   /*Design project 2*/
 
   .previous-button {
-    font-size: 18px;
-    width: 200px;
-    height: 40px;
-    border-radius: 30px;
-    color: var(--secondary-color);
-    border: 3px solid var(--secondary-color);
-    background-color: #fff;
-  }
-
-  .previous-project-link {
-    text-decoration: none;
-    color: var(--secondary-color);
-  }
-
-  .previous-button-container {
-    padding: 0 0 70px 0;
+    font-size: 15px;
+    width: 160px;
+    height: 30px;
   }
 
   .design-project2-background {
-    height: 550px;
+    height: 360px;
     background: linear-gradient(to bottom, #3836f5, #ecf2ff);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }
 
   .portfolio-main-image {
-    display: block;
-    margin: 0 auto;
-    padding: 80px 0 0 0;
-    width: 500px;
+    padding: 40px 0 0 0;
+    width: 350px;
   }
 
   .project2-name {
-    margin: 0;
-    font-size: 40px;
-    font-weight: 600px;
-    text-align: right;
-    padding: 30px 60px 0px 0px;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 20px 30px 0px;
+  }
+
+  .text-content {
+    font-size: 12px;
+  }
+
+  .color-group {
+    width: 300px;
   }
 
   .design-projects-display {
     margin: 0 auto;
-    padding: 90px 0 100px 0;
+    padding: 50px 0 100px 0;
     text-align: center;
   }
 
@@ -828,16 +817,12 @@ body {
     margin: 0 auto;
     padding: 0px 0 0 0;
     width: 400px;
-    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.25);
   }
 
-  .design-projects-desktop-display {
-    display: inline;
-    padding: 0 50px 0 0;
-  }
-
-  .design-projects-display ul li {
-    list-style-type: none;
+  .design-project-display-image {
+    margin-top: 20px;
+    padding: 10px;
+    width: 350px;
   }
 
   .app-icons {
@@ -846,14 +831,15 @@ body {
 
   .app-icons ul li {
     display: inline;
-    padding: 0 50px 0 0;
+    padding: 0 40px 0 0;
+  }
+
+  .app-icons-section {
+    width: 350px;
   }
 
   .interface2-background {
-    width: 800px;
-    height: 1150px;
-    background-color: var(--neutral-background-color3);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    width: 350px;
+    height: 1170px;
   }
 }
