@@ -509,7 +509,7 @@ body {
   border-bottom-right-radius: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (orientation: portrait) {
   /*design 1*/
   .design-projects-heading {
     margin-top: 50px;
@@ -535,7 +535,7 @@ body {
   }
 
   .main-images {
-    padding: 0 10px 0 0;
+    padding: 0 10px 0 0px;
   }
 
   .app-image {
