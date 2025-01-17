@@ -17,11 +17,13 @@ function Header() {
       <div className="wrapper">
         <nav>
           <div className="logo-icon">
-            <img
-              src={Logo}
-              alt="Frontend Developer Portfolio"
-              className="logo"
-            />
+            <Link to="/">
+              <img
+                src={Logo}
+                alt="Frontend Developer Portfolio"
+                className="logo"
+              />
+            </Link>
           </div>
 
           <button

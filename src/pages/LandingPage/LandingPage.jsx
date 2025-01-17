@@ -17,7 +17,7 @@ function LandingPage() {
       <Header />
       <main>
         {/*Hero-Section*/}
-        <div className="row hero-container">
+        <div className="row hero-container" id="hero-container">
           <div className="col-12 col-md-6   hero-image">
             <img
               src={HeroImage}
