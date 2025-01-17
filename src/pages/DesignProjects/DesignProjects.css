@@ -843,3 +843,325 @@ body {
     height: 1170px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1180px) and (orientation: portrait) {
+  /*design 1*/
+  .design-projects-heading {
+    font-size: 200px;
+    letter-spacing: 10px;
+    width: 800px;
+  }
+
+  .design-content-container {
+    margin: 0 auto;
+    width: 800px;
+  }
+
+  .next-button {
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+  }
+
+  .design-project1-background {
+    width: 800px;
+    height: 500px;
+  }
+
+  .main-images {
+    padding: 0 30px 0 0;
+  }
+
+  .app-image {
+    margin: 40px 0 0 0;
+    width: 180px;
+  }
+  .project-name {
+    font-size: 35px;
+    text-align: right;
+    padding: 40px 40px 30px 0px;
+  }
+
+  .design-background {
+    width: 800px;
+  }
+
+  .design-heading {
+    padding: 40px 0 0 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .project-description {
+    font-size: 18px;
+    margin: 17px auto;
+    width: 600px;
+    text-align: center;
+  }
+
+  .section-heading {
+    font-size: 18px;
+  }
+
+  .problem-statement-content p {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .problem-statement {
+    margin: 0px auto;
+    padding: 58px 0 0 0;
+    width: 750px;
+  }
+
+  .problem-statement-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .problem-statement p {
+    text-align: justify;
+  }
+
+  .problem-statement-video {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .spot-buddie-video {
+    border-radius: 30px;
+    width: 180px;
+  }
+
+  .video-play {
+    padding: 10px 0 0 0;
+    font-weight: 600;
+    color: #248a3d;
+  }
+
+  .challenges-section {
+    margin: 0px auto;
+    padding: 40px 0 0 0;
+    width: 750px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .challenges-section p {
+    text-align: justify;
+  }
+
+  .solution-section {
+    margin: 0px auto;
+    padding: 40px 0 0 0;
+    width: 750px;
+    font-size: 15px;
+  }
+
+  .solution-section ul {
+    list-style-type: disc;
+    text-align: justify;
+  }
+
+  .project-info {
+    margin: 0 auto;
+    padding: 40px 0 0 20px;
+    width: 750px;
+  }
+
+  .project-duration-heading,
+  .project-tools-heading,
+  .icon-section-heading {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .duration-number,
+  .screen-number {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .project-duration-days,
+  .project-screens {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .project-tools {
+    margin-left: 10px;
+  }
+
+  .project-tools-heading {
+    margin-top: 0px;
+  }
+
+  .tools-used-icon {
+    width: 30px;
+  }
+
+  .tools-used-photopea-icon {
+    width: 40px;
+  }
+
+  .image-label {
+    font-size: 12px;
+  }
+  .spot-buddie-desktop {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .desktop-version {
+    width: 400px;
+  }
+
+  .interface-background {
+    width: 800px;
+    height: 1250px;
+  }
+
+  .interface-section-heading p {
+    padding: 60px 0 0 0;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .UI-section-heading {
+    font-size: 16px;
+  }
+
+  .logo-items {
+    padding: 10px 10px 0 30px;
+    width: 750px;
+  }
+
+  .logo-item-image {
+    margin: 10px 0 20px 30px;
+    width: 100px;
+  }
+
+  .color-palette {
+    padding: 10px 10px 0 30px;
+    width: 750px;
+  }
+
+  .color-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .color-group {
+    margin: 30px 0 30px 30px;
+  }
+
+  .typography-section {
+    padding: 10px 10px 0 30px;
+    width: 750px;
+  }
+
+  .font-name {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 24px;
+  }
+
+  .font-letter {
+    margin-left: 30px;
+    font-size: 24px;
+  }
+
+  .app-icons-section {
+    padding: 30px 10px 0 30px;
+  }
+
+  .app-icons {
+    margin: 30px auto;
+    width: 750px;
+  }
+
+  .app-icons ul li {
+    display: inline;
+    padding: 0 50px 0 0;
+  }
+
+  .custom-icon {
+    width: 50px;
+  }
+
+  .disclaimer {
+    margin: 30px auto;
+    font-size: 12px;
+    text-align: center;
+    width: 750px;
+  }
+
+  #bottom-page-button {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 0px 0 0px 0;
+  }
+
+  /*Design project 2*/
+
+  .previous-button {
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+  }
+
+  .design-project2-background {
+    height: 500px;
+    background: linear-gradient(to bottom, #3836f5, #ecf2ff);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .portfolio-main-image {
+    padding: 40px 0 0 0;
+    width: 450px;
+  }
+
+  .project2-name {
+    font-size: 35px;
+    text-align: right;
+    padding: 40px 40px 30px 0px;
+  }
+
+  .interface2-background {
+    width: 800px;
+    height: 1170px;
+  }
+
+  .text-content {
+    font-size: 15px;
+  }
+
+  .design-projects-display {
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+    text-align: center;
+  }
+
+  .design-project-display-image {
+    margin: 0 auto;
+    padding: 10px;
+    width: 350px;
+  }
+
+  .app-icons {
+    margin: 30px auto;
+  }
+
+  .app-icons ul li {
+    display: inline;
+    padding: 0 40px 0 0;
+  }
+
+  .app-icons-section {
+    width: 750px;
+  }
+}
