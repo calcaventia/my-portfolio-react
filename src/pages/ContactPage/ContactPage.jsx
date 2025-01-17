@@ -10,7 +10,7 @@ function Contact() {
     <div>
       <main>
         <div className="row contact-page-container">
-          <div className="col-5 contact-page-left">
+          <div className="col-12 col-sm-5 contact-page-left">
             <div className="image-background">
               <img src={ContactImage} alt="" className="contact-page-image" />
             </div>
@@ -49,7 +49,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="col-7 contact-page-right">
+          <div className="col-12 col-sm-7 contact-page-right">
             <h4>Contact me</h4>
             <div className="row contact-page-content">
               <div className="col-1 contact-page-point"></div>
