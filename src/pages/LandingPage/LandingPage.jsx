@@ -1,5 +1,6 @@
 import React from "react";
 import "./LandingPage.css";
+import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import HeroImage from "../../assets/images/hero-profile.png";
@@ -39,7 +40,9 @@ function LandingPage() {
               <span className="key-info">websites and applications</span> that
               add value to startups, agencies and large organisations.
             </p>
-            <button className="large-button">Skills Experience</button>
+            <a href="/#skills-experience">
+              <button className="large-button">Skills Experience</button>
+            </a>
           </div>
         </div>
 
@@ -65,7 +68,9 @@ function LandingPage() {
                 in people's lives, whether through innovative user experiences
                 or solving complex problems.
               </p>
-              <button className="medium-button">Tell me more</button>
+              <Link to="../../about" className="home-about-link">
+                <button className="medium-button">Tell me more</button>
+              </Link>
             </div>
             <div className="col-12 col-md-6 order-sm-2  about-image">
               <img
@@ -79,7 +84,12 @@ function LandingPage() {
           {/*technical skills-section*/}
 
           <div className="technical-skills-container">
-            <h2 className="section-heading">Technical Skills</h2>
+            <h2
+              className="section-heading skills-experience"
+              id="skills-experience"
+            >
+              Technical Skills
+            </h2>
             <hr className="heading-content-breaker" />
             <div className="row t-s-container">
               <div className="col me-3 technical-skill">HTML5</div>
@@ -161,7 +171,9 @@ function LandingPage() {
               </div>
             </div>
             <div className="experience-button">
-              <button className="medium-button">Go to projects</button>
+              <Link to="../../codingprojects">
+                <button className="medium-button">Go to projects</button>
+              </Link>
             </div>
           </div>
         </div>
