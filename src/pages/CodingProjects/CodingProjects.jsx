@@ -40,24 +40,21 @@ function CodingProjects() {
                 <div className="col-2 me-3 project-tool">Bootstrap</div>
               </div>
               <div className="project-links">
-                <button className="me-3 code-button">
-                  <a
-                    href="https://github.com/calcaventia/EWSETA-Landing-Page-Project"
-                    target="blank"
-                    className="code-link"
-                  >
-                    Code
-                  </a>
-                </button>
-                <button className="site-button">
-                  <a
-                    href="https://calcaventia.github.io/EWSETA-Landing-Page-Project/"
-                    target="blank"
-                    className="website-link"
-                  >
-                    Website
-                  </a>
-                </button>
+                <a
+                  href="https://github.com/calcaventia/EWSETA-Landing-Page-Project"
+                  target="blank"
+                  className="code-link"
+                >
+                  <button className="me-3 code-button">Code</button>{" "}
+                </a>
+                <a
+                  href="https://calcaventia.github.io/EWSETA-Landing-Page-Project/"
+                  target="blank"
+                  className="website-link"
+                >
+                  {" "}
+                  <button className="site-button">Website</button>{" "}
+                </a>
               </div>
             </div>
             <div className="col-12 col-sm-4 project-image">
@@ -86,24 +83,20 @@ function CodingProjects() {
                 <div className="col-2 me-3 project-tool">Bootstrap</div>
               </div>
               <div className="project-links">
-                <button className="me-3 code-button">
-                  <a
-                    href="https://github.com/calcaventia/Makeovers-App-Landing-Page-Capstone-Project"
-                    target="blank"
-                    className="code-link"
-                  >
-                    Code
-                  </a>
-                </button>
-                <button className="site-button">
-                  <a
-                    href="https://calcaventia.github.io/Makeovers-App-Landing-Page-Capstone-Project/"
-                    target="blank"
-                    className="website-link"
-                  >
-                    Website
-                  </a>
-                </button>
+                <a
+                  href="https://github.com/calcaventia/Makeovers-App-Landing-Page-Capstone-Project"
+                  target="blank"
+                  className="code-link"
+                >
+                  <button className="me-3 code-button">Code</button>{" "}
+                </a>
+                <a
+                  href="https://calcaventia.github.io/Makeovers-App-Landing-Page-Capstone-Project/"
+                  target="blank"
+                  className="website-link"
+                >
+                  <button className="site-button">Website</button>{" "}
+                </a>
               </div>
             </div>
             <div className="col-12 col-sm-4 project-image">
@@ -131,24 +124,20 @@ function CodingProjects() {
                 <div className="col-2  project-tool">Figma</div>
               </div>
               <div className="project-links">
-                <button className="me-3 code-button">
-                  <a
-                    href="https://github.com/calcaventia/my-portfolio-react"
-                    target="blank"
-                    className="code-link"
-                  >
-                    Code
-                  </a>
-                </button>
-                <button className="site-button">
-                  <a
-                    href="https://tintswalo-mabuza.netlify.app/"
-                    target="blank"
-                    className="website-link"
-                  >
-                    Website
-                  </a>
-                </button>
+                <a
+                  href="https://github.com/calcaventia/my-portfolio-react"
+                  target="blank"
+                  className="code-link"
+                >
+                  <button className="me-3 code-button">Code</button>{" "}
+                </a>
+                <a
+                  href="https://tintswalo-mabuza.netlify.app/"
+                  target="blank"
+                  className="website-link"
+                >
+                  <button className="site-button">Website</button>{" "}
+                </a>
               </div>
             </div>
             <div className="col-12 col-sm-4 project-image">
