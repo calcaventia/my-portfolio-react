@@ -11,6 +11,7 @@ import GalleryImage3 from "../../assets/images/GalleryImage3.JPG";
 import GalleryImage4 from "../../assets/images/GalleryImage4.JPG";
 import GalleryImage5 from "../../assets/images/GalleryImage5.JPG";
 import GalleryImage6 from "../../assets/images/GalleryImage6.JPG";
+import DesktopVersion from "../../assets/images/SpotBuddie-UI-Desktop.png";
 
 function LandingPage() {
   return (
@@ -30,14 +31,15 @@ function LandingPage() {
             <p className="author-name">
               Tintswalo.<span className="initial">M</span>
             </p>
-            <h1 className="title">Software Developer | South Africa</h1>
+            <h1 className="title">Web Designer and Developer | South Africa</h1>
             <p className="body-text-medium">
               Specialises in{" "}
-              <span className="key-info">frontend development</span> and
-              utilising <span className="key-info">UI/UX design </span>
-              principles and <span className="key-info">SEO </span>best
-              practices to create impactful{" "}
-              <span className="key-info">websites and applications</span> that
+              <span className="key-info">
+                UI/UX Design and Frontend Development
+              </span>{" "}
+              utilising <span className="key-info">SEO </span>best practices to
+              create impactful{" "}
+              <span className="key-info">web and mobile applications</span> that
               add value to startups, agencies and large organisations.
             </p>
             <a href="/#skills-experience">
@@ -52,16 +54,17 @@ function LandingPage() {
           <div className="row about-container">
             <div className="col-12 col-md-6 order-sm-1 about-content">
               <h2 className="section-heading">About Me</h2>
-              <p className="sub-heading">Software Developer</p>
+              <p className="sub-heading">Web Designer and Developer</p>
               <p className="about-content-body">
-                I'm a Software developer passionate about building innovative
-                web applications.
+                I'm a UI/UX Designer and Frontend Developer who is passionate
+                about building innovative web applications.
               </p>
               <p className="about-content-body">
                 My experience includes coursework and personal projects where
-                I've gained proficiency in frontend technologies like HTML, CSS,
-                Javascript and React.js, as well as backend technologies like
-                Node.js and Express.js.
+                I've gained proficiency in UI/UX design skills such as user
+                research, wireframing and prototyping using Figma. My
+                programming skills include frontend technologies such as HTML,
+                CSS, Javascript and React.js.
               </p>
               <p className="about-content-body">
                 My aspiration is to work on projects that make a positive impact
@@ -92,21 +95,25 @@ function LandingPage() {
             </h2>
             <hr className="heading-content-breaker" />
             <div className="row t-s-container">
-              <div className="col me-3 technical-skill">HTML5</div>
-              <div className="col me-3 technical-skill">CSS3</div>
+              <div className="col me-3 technical-skill">Figma</div>
+              <div className="col me-3 technical-skill">Prototyping</div>
+              <div className="col me-3 technical-skill">Visual Design</div>
+              <div className="col me-3 technical-skill">HTML</div>
+              <div className="col me-3 technical-skill">CSS</div>
               <div className="col me-3 technical-skill">Javascript</div>
-              <div className="col me-3 technical-skill">React</div>
-              <div className="col me-3 technical-skill">Bootstrap</div>
-              <div className="col me-3 technical-skill">MongoDB</div>
-              <div className="col me-3 technical-skill">Git</div>
+              <div className="col me-3 technical-skill">React.js</div>
             </div>
             <div className="row t-s-container2">
-              <div className="col me-2 technical-skill">MySQL</div>
-              <div className="col me-2 technical-skill">GitHub</div>
-              <div className="col me-2 technical-skill">Wordpress</div>
-              <div className="col me-2 technical-skill">Figma</div>
-              <div className="col me-2 technical-skill">UI/UX Design</div>
-              <div className="col me-2 technical-skill">Photopea</div>
+              <div className="col me-2 technical-skill">Wireframe Tools</div>
+              <div className="col me-2 technical-skill">
+                Information Architecture
+              </div>
+              <div className="col me-2 technical-skill">
+                Responsive Mobile Design
+              </div>
+              <div className="col me-2 technical-skill">UX Principles</div>
+              <div className="col me-2 technical-skill">User Research</div>
+              <div className="col me-2 technical-skill">User Interviews</div>
             </div>
           </div>
 
@@ -148,26 +155,24 @@ function LandingPage() {
             </p>
             <div className="row project-gallery">
               <div className="col-12 col-md-6">
-                <img src={GalleryImage1} alt="" className="gallery-images" />
+                <img src={DesktopVersion} alt="" className="gallery-images" />
               </div>
+
               <div className="col-12 col-md-6">
                 <img src={GalleryImage2} alt="" className="gallery-images" />
               </div>
             </div>
             <div className="row project-gallery">
               <div className="col-12 col-md-6">
-                <img src={GalleryImage3} alt="" className="gallery-images" />
+                <img src={GalleryImage6} alt="" className="gallery-images" />
               </div>
               <div className="col-12 col-md-6">
-                <img src={GalleryImage4} alt="" className="gallery-images" />
+                <img src={GalleryImage3} alt="" className="gallery-images" />
               </div>
             </div>
             <div className="row project-gallery">
               <div className="col-12 col-md-6">
                 <img src={GalleryImage5} alt="" className="gallery-images" />
-              </div>
-              <div className="col-12 col-md-6">
-                <img src={GalleryImage6} alt="" className="gallery-images" />
               </div>
             </div>
             <div className="experience-button">
